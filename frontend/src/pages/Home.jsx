@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideshowImages = [
-    '/slideshow_car_1.png',
     '/slideshow_car_2.png',
     '/slideshow_car_3.png',
     '/slideshow_car_4.png',
